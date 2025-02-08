@@ -1,0 +1,69 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+.virtualenv/
+
+# Editor de código e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos sensíveis e credenciais
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.pem
+*.crt
+*.key
+
+# Arquivos de log
+logs/
+*.log
+nohup.out
+
+# SQLite Database
+*.sqlite3
+db.sqlite3
+instance/
+migrations/
+
+# PostgreSQL Dumps
+*.sql
+*.dump
+
+# Arquivos de cache do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+.dockerignore
+
+# PyCharm
+/.idea/
+*.iml
+
+# FastAPI
+openapi.json
